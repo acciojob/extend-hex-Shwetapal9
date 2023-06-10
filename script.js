@@ -1,7 +1,6 @@
 const extendHex = (shortHex) => {
   // write your code here
-	 let extend = "#" +
-  shortHex
+	 let extend =   shortHex
     .slice(shortHex.startsWith("#") ? 1 : 0)
     .split("")
     .map((x) => x + x)
